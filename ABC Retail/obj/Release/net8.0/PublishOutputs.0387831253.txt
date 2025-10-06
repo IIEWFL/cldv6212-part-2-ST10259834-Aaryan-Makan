@@ -1,0 +1,17 @@
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\PubTmp\Out\ABC Retail.exe
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\PubTmp\Out\ABC Retail.dll
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\PubTmp\Out\ABC Retail.deps.json
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\PubTmp\Out\ABC Retail.runtimeconfig.json
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\PubTmp\Out\ABC Retail.pdb
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\PubTmp\Out\Azure.Core.dll
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\PubTmp\Out\Azure.Data.Tables.dll
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\PubTmp\Out\Azure.Storage.Blobs.dll
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\PubTmp\Out\Azure.Storage.Common.dll
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\PubTmp\Out\Azure.Storage.Files.Shares.dll
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\PubTmp\Out\Azure.Storage.Queues.dll
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\PubTmp\Out\System.ClientModel.dll
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\PubTmp\Out\System.IO.Hashing.dll
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\PubTmp\Out\System.Memory.Data.dll

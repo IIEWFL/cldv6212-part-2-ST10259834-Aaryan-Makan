@@ -1,0 +1,31 @@
+﻿@model List<(string Name, string Url)>
+@{
+    ViewData["Title"] = "Contracts (Azure File Share)";
+}
+<h2>Contracts (Azure File Share)</h2>
+
+<form asp-action="Upload" method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <input type="file" name="file" class="form-control" />
+    </div>
+    <button class="btn btn-primary">Upload to File Share</button>
+</form>
+
+<h4 class="mt-4">Files</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Download</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var f in Model)
+        {
+            <tr>
+                <td>@f.Name</td>
+                <td><a href="@f.Url" target="_blank" class="btn btn-sm btn-outline-primary">Download</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "ABC Retail";
+}
+<section class="py-5 text-center">
+    <h1 class="display-5 fw-bold">ABC Retail</h1>
+    <p class="lead text-muted mb-4">
+        Manage customers, products, orders, queues, and contracts — powered by Azure Storage.
+    </p>
+</section>
+
+<div class="row g-4 home-tiles">
+    <div class="col-12 col-md-6">
+        <a class="tile tile--customers" asp-controller="Customer" asp-action="Index">
+            <div>
+                <div class="tile-kicker"><i class="bi bi-people-fill me-1"></i>Customers</div>
+                <div class="tile-title">Profiles & contacts</div>
+            </div>
+            <i class="bi bi-arrow-right-circle-fill tile-icon"></i>
+        </a>
+    </div>
+
+    <div class="col-12 col-md-6">
+        <a class="tile tile--products" asp-controller="Product" asp-action="Index">
+            <div>
+                <div class="tile-kicker"><i class="bi bi-box-seam me-1"></i>Products</div>
+                <div class="tile-title">Inventory & images</div>
+            </div>
+            <i class="bi bi-arrow-right-circle-fill tile-icon"></i>
+        </a>
+    </div>
+
+    <div class="col-12 col-md-6">
+        <a class="tile tile--orders" asp-controller="Order" asp-action="Index">
+            <div>
+                <div class="tile-kicker"><i class="bi bi-receipt me-1"></i>Orders</div>
+                <div class="tile-title">Customer ↔ Product</div>
+            </div>
+            <i class="bi bi-arrow-right-circle-fill tile-icon"></i>
+        </a>
+    </div>
+
+    <div class="col-12 col-md-6">
+        <a class="tile tile--queues" asp-controller="Queue" asp-action="Index">
+            <div>
+                <div class="tile-kicker"><i class="bi bi-inboxes-fill me-1"></i>Queues</div>
+                <div class="tile-title">Processing logs</div>
+            </div>
+            <i class="bi bi-arrow-right-circle-fill tile-icon"></i>
+        </a>
+    </div>
+
+    <!-- NEW: Contracts / Azure File Share -->
+    <div class="col-12 col-md-6">
+        <a class="tile tile--contracts" asp-controller="Contracts" asp-action="Index">
+            <div>
+                <div class="tile-kicker"><i class="bi bi-file-earmark-text me-1"></i>Contracts</div>
+                <div class="tile-title">Azure File Share</div>
+            </div>
+            <i class="bi bi-arrow-right-circle-fill tile-icon"></i>
+        </a>
+    </div>
+</div>

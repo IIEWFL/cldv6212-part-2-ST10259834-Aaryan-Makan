@@ -1,0 +1,91 @@
+C:\Users\RajeshM\Documents\ABC Retail\bin\Release\net8.0\appsettings.Development.json
+C:\Users\RajeshM\Documents\ABC Retail\bin\Release\net8.0\appsettings.json
+C:\Users\RajeshM\Documents\ABC Retail\bin\Release\net8.0\ABC Retail.staticwebassets.runtime.json
+C:\Users\RajeshM\Documents\ABC Retail\bin\Release\net8.0\ABC Retail.staticwebassets.endpoints.json
+C:\Users\RajeshM\Documents\ABC Retail\bin\Release\net8.0\ABC Retail.exe
+C:\Users\RajeshM\Documents\ABC Retail\bin\Release\net8.0\ABC Retail.deps.json
+C:\Users\RajeshM\Documents\ABC Retail\bin\Release\net8.0\ABC Retail.runtimeconfig.json
+C:\Users\RajeshM\Documents\ABC Retail\bin\Release\net8.0\ABC Retail.dll
+C:\Users\RajeshM\Documents\ABC Retail\bin\Release\net8.0\ABC Retail.pdb
+C:\Users\RajeshM\Documents\ABC Retail\bin\Release\net8.0\Azure.Core.dll
+C:\Users\RajeshM\Documents\ABC Retail\bin\Release\net8.0\Azure.Data.Tables.dll
+C:\Users\RajeshM\Documents\ABC Retail\bin\Release\net8.0\Azure.Storage.Blobs.dll
+C:\Users\RajeshM\Documents\ABC Retail\bin\Release\net8.0\Azure.Storage.Common.dll
+C:\Users\RajeshM\Documents\ABC Retail\bin\Release\net8.0\Azure.Storage.Files.Shares.dll
+C:\Users\RajeshM\Documents\ABC Retail\bin\Release\net8.0\Azure.Storage.Queues.dll
+C:\Users\RajeshM\Documents\ABC Retail\bin\Release\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\RajeshM\Documents\ABC Retail\bin\Release\net8.0\System.ClientModel.dll
+C:\Users\RajeshM\Documents\ABC Retail\bin\Release\net8.0\System.IO.Hashing.dll
+C:\Users\RajeshM\Documents\ABC Retail\bin\Release\net8.0\System.Memory.Data.dll
+C:\Users\RajeshM\Documents\ABC Retail\obj\Release\net8.0\ABC Retail.csproj.AssemblyReference.cache
+C:\Users\RajeshM\Documents\ABC Retail\obj\Release\net8.0\rpswa.dswa.cache.json
+C:\Users\RajeshM\Documents\ABC Retail\obj\Release\net8.0\ABC Retail.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RajeshM\Documents\ABC Retail\obj\Release\net8.0\ABC Retail.AssemblyInfoInputs.cache
+C:\Users\RajeshM\Documents\ABC Retail\obj\Release\net8.0\ABC Retail.AssemblyInfo.cs
+C:\Users\RajeshM\Documents\ABC Retail\obj\Release\net8.0\ABC Retail.csproj.CoreCompileInputs.cache
+C:\Users\RajeshM\Documents\ABC Retail\obj\Release\net8.0\ABC Retail.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\RajeshM\Documents\ABC Retail\obj\Release\net8.0\ABC Retail.RazorAssemblyInfo.cache
+C:\Users\RajeshM\Documents\ABC Retail\obj\Release\net8.0\ABC Retail.RazorAssemblyInfo.cs
+C:\Users\RajeshM\Documents\ABC Retail\obj\Release\net8.0\rjimswa.dswa.cache.json
+C:\Users\RajeshM\Documents\ABC Retail\obj\Release\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\RajeshM\Documents\ABC Retail\obj\Release\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\RajeshM\Documents\ABC Retail\obj\Release\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\RajeshM\Documents\ABC Retail\obj\Release\net8.0\scopedcss\bundle\ABC Retail.styles.css
+C:\Users\RajeshM\Documents\ABC Retail\obj\Release\net8.0\scopedcss\projectbundle\ABC Retail.bundle.scp.css
+C:\Users\RajeshM\Documents\ABC Retail\obj\Release\net8.0\staticwebassets.build.json
+C:\Users\RajeshM\Documents\ABC Retail\obj\Release\net8.0\staticwebassets.build.json.cache
+C:\Users\RajeshM\Documents\ABC Retail\obj\Release\net8.0\staticwebassets.development.json
+C:\Users\RajeshM\Documents\ABC Retail\obj\Release\net8.0\staticwebassets.build.endpoints.json
+C:\Users\RajeshM\Documents\ABC Retail\obj\Release\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\RajeshM\Documents\ABC Retail\obj\Release\net8.0\ABC Retail.csproj.Up2Date
+C:\Users\RajeshM\Documents\ABC Retail\obj\Release\net8.0\ABC Retail.dll
+C:\Users\RajeshM\Documents\ABC Retail\obj\Release\net8.0\refint\ABC Retail.dll
+C:\Users\RajeshM\Documents\ABC Retail\obj\Release\net8.0\ABC Retail.pdb
+C:\Users\RajeshM\Documents\ABC Retail\obj\Release\net8.0\ABC Retail.genruntimeconfig.cache
+C:\Users\RajeshM\Documents\ABC Retail\obj\Release\net8.0\ref\ABC Retail.dll
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\bin\Release\net8.0\appsettings.Development.json
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\bin\Release\net8.0\appsettings.json
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\bin\Release\net8.0\ABC Retail.staticwebassets.endpoints.json
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\bin\Release\net8.0\ABC Retail.staticwebassets.runtime.json
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\bin\Release\net8.0\ABC Retail.exe
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\bin\Release\net8.0\ABC Retail.deps.json
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\bin\Release\net8.0\ABC Retail.runtimeconfig.json
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\bin\Release\net8.0\ABC Retail.dll
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\bin\Release\net8.0\ABC Retail.pdb
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\bin\Release\net8.0\Azure.Core.dll
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\bin\Release\net8.0\Azure.Data.Tables.dll
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\bin\Release\net8.0\Azure.Storage.Blobs.dll
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\bin\Release\net8.0\Azure.Storage.Common.dll
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\bin\Release\net8.0\Azure.Storage.Files.Shares.dll
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\bin\Release\net8.0\Azure.Storage.Queues.dll
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\bin\Release\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\bin\Release\net8.0\System.ClientModel.dll
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\bin\Release\net8.0\System.IO.Hashing.dll
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\bin\Release\net8.0\System.Memory.Data.dll
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\ABC Retail.csproj.AssemblyReference.cache
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\rpswa.dswa.cache.json
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\ABC Retail.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\ABC Retail.AssemblyInfoInputs.cache
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\ABC Retail.AssemblyInfo.cs
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\ABC Retail.csproj.CoreCompileInputs.cache
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\ABC Retail.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\ABC Retail.RazorAssemblyInfo.cache
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\ABC Retail.RazorAssemblyInfo.cs
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\ABC Retail.sourcelink.json
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\rjimswa.dswa.cache.json
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\scopedcss\bundle\ABC Retail.styles.css
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\scopedcss\projectbundle\ABC Retail.bundle.scp.css
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\staticwebassets.build.json
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\staticwebassets.build.json.cache
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\staticwebassets.development.json
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\staticwebassets.build.endpoints.json
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\ABC Retail.csproj.Up2Date
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\ABC Retail.dll
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\refint\ABC Retail.dll
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\ABC Retail.pdb
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\ABC Retail.genruntimeconfig.cache
+C:\Users\RajeshM\Documents\cldv6212-part-1-ST10259834-Aaryan-Makan\ABC Retail\obj\Release\net8.0\ref\ABC Retail.dll

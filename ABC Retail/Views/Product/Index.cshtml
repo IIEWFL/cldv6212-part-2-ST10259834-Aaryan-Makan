@@ -1,0 +1,59 @@
+﻿@using ABC_Retail.Models
+@model List<(Product product, string? imageUrl)>
+
+@{
+    ViewData["Title"] = "Products";
+}
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2 class="m-0">Products</h2>
+    <a asp-action="Create" class="btn btn-primary">Add Product</a>
+</div>
+
+@if (Model == null || Model.Count == 0)
+{
+    <div class="alert alert-info">No products yet. Click <strong>Add Product</strong> to create one.</div>
+}
+else
+{
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+        @foreach (var item in Model)
+        {
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    @if (!string.IsNullOrEmpty(item.imageUrl))
+                    {
+                        <img src="@item.imageUrl" class="card-img-top" alt="image" style="object-fit:cover;height:180px;">
+                    }
+                    <div class="card-body">
+                        <h5 class="card-title mb-1">@item.product.ProductName</h5>
+                        <p class="card-text text-muted mb-2">@item.product.Description</p>
+                        <div class="d-flex justify-content-between small">
+                            <span class="badge bg-success">Price: @item.product.Price</span>
+                            <span class="badge bg-secondary">Stock: @item.product.Stock</span>
+                        </div>
+                    </div>
+                    <div class="card-footer bg-white border-0 d-flex gap-2">
+                        <a class="btn-action btn-details"
+                           asp-action="Details"
+                           asp-route-partitionKey="@item.product.PartitionKey"
+                           asp-route-rowKey="@item.product.RowKey">
+                            <i class="bi bi-eye"></i> Details
+                        </a>
+                        <a class="btn-action btn-edit"
+                           asp-action="Edit"
+                           asp-route-partitionKey="@item.product.PartitionKey"
+                           asp-route-rowKey="@item.product.RowKey">
+                            <i class="bi bi-pencil-square"></i> Edit
+                        </a>
+                        <a class="btn-action btn-delete"
+                           asp-action="Delete"
+                           asp-route-partitionKey="@item.product.PartitionKey"
+                           asp-route-rowKey="@item.product.RowKey">
+                            <i class="bi bi-trash3-fill"></i> Delete
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

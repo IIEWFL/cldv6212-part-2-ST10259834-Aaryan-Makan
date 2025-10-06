@@ -1,0 +1,30 @@
+﻿@model ABC_Retail.Models.Order
+@using Microsoft.AspNetCore.Mvc.Rendering
+@{
+    ViewData["Title"] = "Create Order";
+}
+<h2>Create Order</h2>
+
+<form asp-action="Create" method="post">
+    <div class="mb-3">
+        <label class="form-label">Customer</label>
+        @Html.DropDownListFor(m => m.CustomerRowKey, (SelectList)ViewBag.CustomerOptions, "Select customer", new { @class = "form-select" })
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Product</label>
+        @Html.DropDownListFor(m => m.ProductRowKey, (SelectList)ViewBag.ProductOptions, "Select product", new { @class = "form-select" })
+    </div>
+    <div class="mb-3">
+        <label asp-for="Quantity" class="form-label"></label>
+        <input asp-for="Quantity" class="form-control" min="1" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Status" class="form-label"></label>
+        <select asp-for="Status" class="form-select">
+            <option>Pending</option>
+            <option>Processed</option>
+            <option>Cancelled</option>
+        </select>
+    </div>
+    <button class="btn btn-success">Save</button>
+</form>

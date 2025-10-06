@@ -1,0 +1,14 @@
+﻿@model ABC_Retail.Models.Product
+@{
+    ViewData["Title"] = "Create Product";
+}
+<h2>Create Product</h2>
+
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="mb-3"><label asp-for="ProductName"></label><input asp-for="ProductName" class="form-control" /></div>
+    <div class="mb-3"><label asp-for="Description"></label><input asp-for="Description" class="form-control" /></div>
+    <div class="mb-3"><label asp-for="Price"></label><input asp-for="Price" class="form-control" /></div>
+    <div class="mb-3"><label asp-for="Stock"></label><input asp-for="Stock" class="form-control" /></div>
+    <div class="mb-3"><label class="form-label">Image</label><input type="file" name="image" class="form-control" /></div>
+    <button type="submit" class="btn btn-success">Save</button>
+</form>

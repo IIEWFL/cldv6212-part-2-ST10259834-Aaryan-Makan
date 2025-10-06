@@ -1,0 +1,54 @@
+﻿@model List<ABC_Retail.Controllers.OrderListItem>
+@{
+    ViewData["Title"] = "Orders";
+}
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2 class="m-0">Orders</h2>
+    <a asp-action="Create" class="btn btn-primary">Create Order</a>
+</div>
+
+@if (Model == null || !Model.Any())
+{
+    <div class="alert alert-info">No orders yet. Create one to log processing to the queue.</div>
+}
+else
+{
+    <table class="table table-hover align-middle">
+        <thead class="table-light">
+            <tr>
+                <th>Created</th>
+                <th>Customer</th>
+                <th>Product</th>
+                <th>Qty</th>
+                <th>Status</th>
+                <th class="text-end">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var x in Model)
+            {
+                <tr>
+                    <td>@x.Order.CreatedUtc.ToLocalTime()</td>
+                    <td>@x.CustomerName</td>
+                    <td>@x.ProductName</td>
+                    <td>@x.Order.Quantity</td>
+                    <td><span class="badge bg-secondary">@x.Order.Status</span></td>
+                    <td class="text-end">
+                        <a class="btn-action btn-details"
+                           asp-action="Details" asp-route-partitionKey="@x.Order.PartitionKey" asp-route-rowKey="@x.Order.RowKey">
+                            <i class="bi bi-eye"></i> Details
+                        </a>
+                        <a class="btn-action btn-edit"
+                           asp-action="Edit" asp-route-partitionKey="@x.Order.PartitionKey" asp-route-rowKey="@x.Order.RowKey">
+                            <i class="bi bi-pencil-square"></i> Edit
+                        </a>
+                        <a class="btn-action btn-delete"
+                           asp-action="Delete" asp-route-partitionKey="@x.Order.PartitionKey" asp-route-rowKey="@x.Order.RowKey">
+                            <i class="bi bi-trash3-fill"></i> Delete
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

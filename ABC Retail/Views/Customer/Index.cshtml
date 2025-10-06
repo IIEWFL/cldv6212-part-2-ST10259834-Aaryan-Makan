@@ -1,0 +1,50 @@
+﻿@model IEnumerable<ABC_Retail.Models.Customer>
+@{
+    ViewData["Title"] = "Customers";
+}
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2 class="m-0">Customers</h2>
+    <a asp-action="Create" class="btn btn-primary">Add Customer</a>
+</div>
+
+@if (Model == null || !Model.Any())
+{
+    <div class="alert alert-info">No customers yet. Click <strong>Add Customer</strong> to create one.</div>
+}
+else
+{
+    <table class="table table-hover align-middle">
+        <thead class="table-light">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th class="text-end">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var c in Model)
+            {
+                <tr>
+                    <td>@c.FirstName @c.LastName</td>
+                    <td><span class="badge bg-light text-dark">@c.Email</span></td>
+                    <td><span class="badge bg-light text-dark">@c.Phone</span></td>
+                    <td class="text-end">
+                        <a class="btn-action btn-details"
+                           asp-action="Details" asp-route-partitionKey="@c.PartitionKey" asp-route-rowKey="@c.RowKey">
+                            <i class="bi bi-eye"></i> Details
+                        </a>
+                        <a class="btn-action btn-edit"
+                           asp-action="Edit" asp-route-partitionKey="@c.PartitionKey" asp-route-rowKey="@c.RowKey">
+                            <i class="bi bi-pencil-square"></i> Edit
+                        </a>
+                        <a class="btn-action btn-delete"
+                           asp-action="Delete" asp-route-partitionKey="@c.PartitionKey" asp-route-rowKey="@c.RowKey">
+                            <i class="bi bi-trash3-fill"></i> Delete
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

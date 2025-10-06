@@ -1,0 +1,203 @@
+/* ===== Theme base (from earlier vivid indigo + teal) ===== */
+:root {
+    --bs-primary: #6C5CE7;
+    --bs-primary-rgb: 108,92,231;
+    --bs-secondary: #00D8C6;
+    --bs-secondary-rgb: 0,216,198;
+    --bs-success: #06D6A0;
+    --bs-info: #3ABEFF;
+    --bs-warning: #FFB10A;
+    --bs-danger: #FF6B6B;
+    --bs-dark: #0F172A;
+    --bs-light: #F8FAFC;
+}
+
+body {
+    background: radial-gradient(1200px 600px at 100% -20%, rgba(0,216,198,.08), transparent 60%), radial-gradient(1000px 500px at -10% 0%, rgba(108,92,231,.08), transparent 55%), #ffffff;
+    color: #0b1220;
+}
+
+.brandbar {
+    background: linear-gradient(90deg, #6C5CE7 0%, #8A7FF3 45%, #00D8C6 100%);
+}
+
+.brand-title {
+    font-size: 1.85rem;
+    letter-spacing: .3px;
+}
+
+.nav-big {
+    font-size: 1.125rem;
+    font-weight: 700;
+    padding: .6rem .9rem !important;
+    border-radius: .75rem;
+    color: rgba(255,255,255,.92) !important;
+}
+
+    .nav-big:hover {
+        background: rgba(255,255,255,.18);
+        color: #fff !important;
+    }
+
+    .nav-big.active {
+        background: rgba(255,255,255,.28);
+        color: #fff !important;
+    }
+
+.navbar {
+    padding-top: .35rem;
+    padding-bottom: .35rem;
+}
+
+.card {
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0 8px 24px rgba(17,18,38,.06);
+}
+
+.card-img-top {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 28px rgba(17,18,38,.09);
+    transition: .15s ease;
+}
+
+.table {
+    --bs-table-hover-bg: rgba(108,92,231,.06);
+}
+
+    .table th {
+        font-weight: 700;
+    }
+
+    .table td, .table th {
+        vertical-align: middle;
+    }
+
+/* ===== Pretty action buttons (Details / Edit / Delete) ===== */
+.btn-action {
+    border-radius: 999px;
+    padding: .45rem .85rem;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    gap: .4rem;
+    border: 1px solid transparent;
+    transition: transform .08s ease, filter .12s ease;
+    margin-left: .25rem;
+    margin-right: .25rem;
+}
+
+    .btn-action:hover {
+        transform: translateY(-1px);
+        filter: brightness(1.05);
+    }
+
+.btn-details {
+    background: #EEF2FF;
+    color: #4F46E5;
+    border-color: #E0E7FF;
+}
+
+    .btn-details:hover {
+        background: #E0E7FF;
+    }
+
+.btn-edit {
+    background-image: linear-gradient(135deg,#6C5CE7,#7F7CEB 60%,#00D8C6);
+    color: #fff;
+}
+
+.btn-delete {
+    background-image: linear-gradient(135deg,#FF6B6B,#FF8FA3);
+    color: #fff;
+}
+
+/* ===== Home tiles ===== */
+.home-tiles .tile {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1rem;
+    padding: 1.25rem 1.25rem;
+    text-decoration: none;
+    box-shadow: 0 10px 28px rgba(17,18,38,.06);
+    color: #0f172a;
+    border: 1px solid rgba(12,20,36,.06);
+}
+
+.tile:hover {
+    transform: translateY(-2px);
+    transition: .15s ease;
+}
+
+
+.tile--contracts {
+    background: linear-gradient(135deg, #F5F0FF, #EAF7FF);
+}
+
+.tile-kicker {
+    font-size: .85rem;
+    font-weight: 700;
+    letter-spacing: .2px;
+    opacity: .75;
+}
+
+.tile-title {
+    font-size: 1.15rem;
+    font-weight: 800;
+    margin-top: .15rem;
+}
+
+.tile-icon {
+    font-size: 1.5rem;
+    opacity: .6;
+}
+
+.tile--customers {
+    background: linear-gradient(135deg,#EAE8FF,#D6FCF9);
+}
+
+.tile--products {
+    background: linear-gradient(135deg,#FFF3E0,#E3F2FD);
+}
+
+.tile--orders {
+    background: linear-gradient(135deg,#E9FCE9,#EAF2FF);
+}
+
+.tile--queues {
+    background: linear-gradient(135deg,#FFEAF1,#EAF4FF);
+}
+
+/* ===== Floating Home button ===== */
+.fab-home {
+    position: fixed;
+    right: 18px;
+    bottom: 18px;
+    z-index: 1050;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg,#6C5CE7,#00D8C6);
+    color: #fff;
+    box-shadow: 0 10px 24px rgba(17,18,38,.2);
+    text-decoration: none;
+}
+
+    .fab-home:hover {
+        filter: brightness(1.05);
+        transform: translateY(-1px);
+    }
+
+    .fab-home i {
+        font-size: 1.25rem;
+    }
