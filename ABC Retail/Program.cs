@@ -10,6 +10,23 @@ using ABC_Retail.Models;
 // Attribution: W3Schools. (n.d.). C# Tutorial. Available at: https://www.w3schools.com/cs/index.php (Accessed: 28 August 2025).
 // Attribution: W3Schools. (n.d.). ASP.NET Razor C# Syntax. Available at: https://www.w3schools.com/asp/razor_syntax.asp (Accessed: 28 August 2025).
 
+
+
+/* 
+
+1) ASP.NET Core MVC overview – https://learn.microsoft.com/aspnet/core/mvc/overview?view=aspnetcore-8.0
+2) Dependency Injection in ASP.NET Core – https://learn.microsoft.com/aspnet/core/fundamentals/dependency-injection
+3) Configuration in ASP.NET Core (appsettings, options) – https://learn.microsoft.com/aspnet/core/fundamentals/configuration
+4) Azure.Data.Tables client library for .NET – https://learn.microsoft.com/azure/developer/net/sdk/azure/data-tables
+5) Table storage design guidelines (partition/row keys) – https://learn.microsoft.com/azure/storage/tables/table-storage-design-guidelines
+6) Azure.Storage.Blobs client library for .NET – https://learn.microsoft.com/dotnet/api/overview/azure/storage.blobs-readme
+7) Azure.Storage.Queues client library for .NET – https://learn.microsoft.com/dotnet/api/overview/azure/storage.queues-readme
+8) Azure.Storage.Files.Shares client library for .NET – https://learn.microsoft.com/dotnet/api/overview/azure/storage.files.shares-readme
+9) Manage data with Azure Storage Explorer – https://learn.microsoft.com/azure/vs-azure-tools-storage-manage-with-storage-explorer
+10) Bootstrap 5 documentation (styling) – https://getbootstrap.com/docs/5.3/getting-started/introduction/
+*/
+
+
 namespace ABC_Retail
 {
     public class Program
@@ -36,6 +53,7 @@ namespace ABC_Retail
             builder.Services.AddSingleton(new QueueStorageService(storageConnectionString, orderQueue));
             builder.Services.AddSingleton(new FileShareStorageService(storageConnectionString, contractShare));
             builder.Services.AddSingleton(new TableStorageService<Order>(storageConnectionString, "Orders"));
+            builder.Services.AddHttpClient<FunctionClient>();
 
 
             var app = builder.Build();

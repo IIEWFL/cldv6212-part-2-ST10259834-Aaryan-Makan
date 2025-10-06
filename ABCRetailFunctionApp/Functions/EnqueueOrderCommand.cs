@@ -7,7 +7,7 @@ public class EnqueueOrderCommand
     private readonly QueueService _queue;
     public EnqueueOrderCommand(QueueService queue) => _queue = queue;
 
-    // Route: /api/orders/command   (singular "command")
+   
     [Function("EnqueueOrderCommand")]
     public async Task<HttpResponseData> Run(
         [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = "orders/command")] HttpRequestData req)
@@ -20,7 +20,7 @@ public class EnqueueOrderCommand
             return bad;
         }
 
-        await _queue.SendAsync(json);  // raw JSON, no re-serialization
+        await _queue.SendAsync(json);  
         var resp = req.CreateResponse(HttpStatusCode.Accepted);
         await resp.WriteStringAsync("Command enqueued.");
         return resp;

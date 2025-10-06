@@ -1,54 +1,93 @@
 ﻿@model List<ABC_Retail.Controllers.OrderListItem>
 @{
     ViewData["Title"] = "Orders";
+    var q = (string?)ViewBag.Query ?? "";
 }
-<div class="d-flex justify-content-between align-items-center mb-3">
-    <h2 class="m-0">Orders</h2>
-    <a asp-action="Create" class="btn btn-primary">Create Order</a>
-</div>
 
-@if (Model == null || !Model.Any())
-{
-    <div class="alert alert-info">No orders yet. Create one to log processing to the queue.</div>
-}
-else
-{
-    <table class="table table-hover align-middle">
-        <thead class="table-light">
-            <tr>
-                <th>Created</th>
-                <th>Customer</th>
-                <th>Product</th>
-                <th>Qty</th>
-                <th>Status</th>
-                <th class="text-end">Actions</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var x in Model)
-            {
-                <tr>
-                    <td>@x.Order.CreatedUtc.ToLocalTime()</td>
-                    <td>@x.CustomerName</td>
-                    <td>@x.ProductName</td>
-                    <td>@x.Order.Quantity</td>
-                    <td><span class="badge bg-secondary">@x.Order.Status</span></td>
-                    <td class="text-end">
-                        <a class="btn-action btn-details"
-                           asp-action="Details" asp-route-partitionKey="@x.Order.PartitionKey" asp-route-rowKey="@x.Order.RowKey">
-                            <i class="bi bi-eye"></i> Details
-                        </a>
-                        <a class="btn-action btn-edit"
-                           asp-action="Edit" asp-route-partitionKey="@x.Order.PartitionKey" asp-route-rowKey="@x.Order.RowKey">
-                            <i class="bi bi-pencil-square"></i> Edit
-                        </a>
-                        <a class="btn-action btn-delete"
-                           asp-action="Delete" asp-route-partitionKey="@x.Order.PartitionKey" asp-route-rowKey="@x.Order.RowKey">
-                            <i class="bi bi-trash3-fill"></i> Delete
-                        </a>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
+<div class="container py-3">
+
+    <h2 class="mb-3">Orders</h2>
+
+    @if (TempData["msg"] != null)
+    {
+        <div class="alert alert-success">@TempData["msg"]</div>
+    }
+
+    
+    <form method="get" class="row g-2 mb-3">
+        <div class="col-md-6">
+            <input name="q" class="form-control" placeholder="Search by Order Id / Customer / Status" value="@q" />
+        </div>
+        <div class="col-md-3 d-grid">
+            <button class="btn btn-primary" type="submit">Search</button>
+        </div>
+        <div class="col-md-3 d-grid">
+            <a asp-action="Create" class="btn btn-success">Create Order</a>
+        </div>
+    </form>
+
+    <div class="card shadow-sm">
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table table-striped table-hover align-middle mb-0">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Order Id</th>
+                            <th>Customer</th>
+                            <th>Product</th>
+                            <th>Qty</th>
+                            <th>Status</th>
+                            <th style="width:320px;">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model != null && Model.Any())
+                        {
+                            foreach (var x in Model)
+                            {
+                                var o = x.Order;
+                                <tr>
+                                    <td>@o.RowKey</td>
+                                    <td>@x.CustomerName</td>
+                                    <td>@x.ProductName</td>
+                                    <td>@o.Quantity</td>
+                                    <td>
+                                        <span class="badge @(o.Status == "Shipped" ? "text-bg-success" : o.Status == "Cancelled" ? "text-bg-danger" : o.Status == "Processed" ? "text-bg-info" : "text-bg-secondary")">
+                                            @o.Status
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <div class="d-flex flex-wrap gap-2">
+                                            <a class="btn btn-sm btn-outline-secondary" asp-action="Details" asp-route-partitionKey="@o.PartitionKey" asp-route-rowKey="@o.RowKey">Details</a>
+                                            <a class="btn btn-sm btn-outline-secondary" asp-action="Edit" asp-route-partitionKey="@o.PartitionKey" asp-route-rowKey="@o.RowKey">Edit</a>
+
+                                            <!-- Inline Status Update (Requirement: Order status updates) -->
+                                            <form method="post" asp-action="UpdateStatus" class="d-flex align-items-center gap-2">
+                                                @Html.AntiForgeryToken()
+                                                <input type="hidden" name="rowKey" value="@o.RowKey" />
+                                                <select name="status" class="form-select form-select-sm w-auto">
+                                                    <option value="Pending" selected="@(o.Status == "Pending")">Pending</option>
+                                                    <option value="Processed" selected="@(o.Status == "Processed")">Processed</option>
+                                                    <option value="Shipped" selected="@(o.Status == "Shipped")">Shipped</option>
+                                                    <option value="Cancelled" selected="@(o.Status == "Cancelled")">Cancelled</option>
+                                                </select>
+                                                <button type="submit" class="btn btn-sm btn-primary">Update</button>
+                                            </form>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="6" class="text-center p-4 text-muted">No orders found.</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>

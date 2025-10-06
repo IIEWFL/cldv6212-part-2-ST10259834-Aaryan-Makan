@@ -7,7 +7,7 @@ public class UploadOrderDocument
     private readonly BlobService _blob;
     public UploadOrderDocument(BlobService blob) => _blob = blob;
 
-    // Accept name from route (/orders/blob/{name}) OR from query (?name=...)
+    
     [Function("UploadOrderDocument")]
     public async Task<HttpResponseData> Run(
         [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = "orders/blob/{name?}")] HttpRequestData req,
@@ -15,7 +15,6 @@ public class UploadOrderDocument
     {
         if (string.IsNullOrWhiteSpace(name))
         {
-            // fallback to query string
             name = System.Web.HttpUtility.ParseQueryString(req.Url.Query).Get("name");
         }
 

@@ -8,7 +8,7 @@ public class SaveReportToFileShare
     private readonly FileShareService _files;
     public SaveReportToFileShare(FileShareService files) => _files = files;
 
-    // Accept name from route OR query
+    
     [Function("SaveReportToFileShare")]
     public async Task<HttpResponseData> Run(
         [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = "orders/file/{name?}")] HttpRequestData req,

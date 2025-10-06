@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\ABC Retail.csproj": {}
+    "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\ABC Retail.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\ABC Retail.csproj": {
+    "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\ABC Retail.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\ABC Retail.csproj",
+        "projectUniqueName": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\ABC Retail.csproj",
         "projectName": "ABC Retail",
-        "projectPath": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\ABC Retail.csproj",
+        "projectPath": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\ABC Retail.csproj",
         "packagesPath": "C:\\Users\\RajeshM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\obj\\",
+        "outputPath": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

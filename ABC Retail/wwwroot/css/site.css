@@ -1,4 +1,4 @@
-/* ===== Theme base (from earlier vivid indigo + teal) ===== */
+
 :root {
     --bs-primary: #6C5CE7;
     --bs-primary-rgb: 108,92,231;
@@ -78,7 +78,7 @@ body {
         vertical-align: middle;
     }
 
-/* ===== Pretty action buttons (Details / Edit / Delete) ===== */
+
 .btn-action {
     border-radius: 999px;
     padding: .45rem .85rem;
@@ -117,7 +117,7 @@ body {
     color: #fff;
 }
 
-/* ===== Home tiles ===== */
+
 .home-tiles .tile {
     position: relative;
     display: flex;
@@ -175,7 +175,7 @@ body {
     background: linear-gradient(135deg,#FFEAF1,#EAF4FF);
 }
 
-/* ===== Floating Home button ===== */
+
 .fab-home {
     position: fixed;
     right: 18px;

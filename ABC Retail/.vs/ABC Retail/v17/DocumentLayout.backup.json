@@ -1,141 +1,149 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\",
+  "WorkspaceRootPath": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\controllers\\contractscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:controllers\\contractscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\views\\queue\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\queue\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\services\\tablestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:services\\tablestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\controllers\\queuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:controllers\\queuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\services\\filesharestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:services\\filesharestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\services\\queuestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:services\\queuestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\abc retail.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:abc retail.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\views\\contracts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\contracts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\controllers\\queuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:controllers\\queuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\views\\order\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\order\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\views\\order\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\order\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\views\\customer\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\customer\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\views\\customer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\customer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\services\\functionclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:services\\functionclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\views\\queue\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\queue\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\services\\tablestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:services\\tablestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\services\\filesharestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:services\\filesharestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\services\\queuestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:services\\queuestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\abc retail.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:abc retail.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\views\\contracts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\contracts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\views\\order\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\order\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\views\\order\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\order\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\views\\customer\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\customer\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\views\\customer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\customer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-1-st10259834-aaryan-makan\\abc retail\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|c:\\users\\rajeshm\\documents\\cldv6212-part-2-st10259834-aaryan-makan\\abc retail\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6B85E8A-D566-4F37-864D-89D4CD657424}|ABC Retail.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -146,17 +154,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Models\\Order.cs",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Models\\Order.cs",
               "RelativeDocumentMoniker": "Models\\Order.cs",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Models\\Order.cs",
               "RelativeToolTip": "Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBIAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-27T14:00:46.995Z",
               "IsPinned": true,
@@ -165,22 +173,135 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Title": "ContractsController.cs",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Controllers\\ContractsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContractsController.cs",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Controllers\\ContractsController.cs",
+              "RelativeToolTip": "Controllers\\ContractsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T18:08:11.388Z"
+              "WhenOpened": "2025-10-06T20:04:26.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T18:08:11.388Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "QueueController.cs",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Controllers\\QueueController.cs",
+              "RelativeDocumentMoniker": "Controllers\\QueueController.cs",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Controllers\\QueueController.cs",
+              "RelativeToolTip": "Controllers\\QueueController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T22:49:42.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAAAHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-27T23:53:17.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-27T14:07:30.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T21:01:01.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T20:59:32.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T17:37:21.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Queue\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-27T23:33:29.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FunctionClient.cs",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Services\\FunctionClient.cs",
+              "RelativeDocumentMoniker": "Services\\FunctionClient.cs",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Services\\FunctionClient.cs",
+              "RelativeToolTip": "Services\\FunctionClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T18:13:33.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Queue\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Queue\\Index.cshtml",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Queue\\Index.cshtml",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Queue\\Index.cshtml",
               "RelativeToolTip": "Views\\Queue\\Index.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -188,59 +309,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAA1wBkAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T17:37:21.253Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "QueueController.cs",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Controllers\\QueueController.cs",
-              "RelativeDocumentMoniker": "Controllers\\QueueController.cs",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Controllers\\QueueController.cs",
-              "RelativeToolTip": "Controllers\\QueueController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T22:49:42.929Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAqwIoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-08-27T23:53:17.76Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAADcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-27T14:07:30.903Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "FileShareStorageService.cs",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Services\\FileShareStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Services\\FileShareStorageService.cs",
               "RelativeDocumentMoniker": "Services\\FileShareStorageService.cs",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Services\\FileShareStorageService.cs",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Services\\FileShareStorageService.cs",
               "RelativeToolTip": "Services\\FileShareStorageService.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAmwDoAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -248,11 +321,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Models\\Customer.cs",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Models\\Customer.cs",
               "RelativeToolTip": "Models\\Customer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -260,11 +333,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -272,11 +345,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "TableStorageService.cs",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Services\\TableStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Services\\TableStorageService.cs",
               "RelativeDocumentMoniker": "Services\\TableStorageService.cs",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Services\\TableStorageService.cs",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Services\\TableStorageService.cs",
               "RelativeToolTip": "Services\\TableStorageService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -284,11 +357,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "QueueStorageService.cs",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Services\\QueueStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Services\\QueueStorageService.cs",
               "RelativeDocumentMoniker": "Services\\QueueStorageService.cs",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Services\\QueueStorageService.cs",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Services\\QueueStorageService.cs",
               "RelativeToolTip": "Services\\QueueStorageService.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAYwCYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -296,22 +369,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "ABC Retail",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\ABC Retail.csproj",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\ABC Retail.csproj",
               "RelativeDocumentMoniker": "ABC Retail.csproj",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\ABC Retail.csproj",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\ABC Retail.csproj",
               "RelativeToolTip": "ABC Retail.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-08-28T13:22:17.923Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Contracts\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Contracts\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Contracts\\Index.cshtml",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Contracts\\Index.cshtml",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Contracts\\Index.cshtml",
               "RelativeToolTip": "Views\\Contracts\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -319,35 +392,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Order\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Order\\Index.cshtml",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Order\\Index.cshtml",
-              "RelativeToolTip": "Views\\Order\\Index.cshtml",
-              "ViewState": "AgIAABoAAAAAAAAAAAAYwDYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-27T23:33:29.199Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "Controllers\\OrderController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwD0AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T21:01:01.289Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAACEAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -355,11 +404,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Product\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "Views\\Product\\Index.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -367,11 +416,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Order\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Order\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Order\\Details.cshtml",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Order\\Details.cshtml",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Order\\Details.cshtml",
               "RelativeToolTip": "Views\\Order\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -379,11 +428,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Customer\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Customer\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Customer\\Index.cshtml",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Customer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Customer\\Index.cshtml",
               "RelativeToolTip": "Views\\Customer\\Index.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -391,11 +440,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Product\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Product\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Details.cshtml",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Product\\Details.cshtml",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Product\\Details.cshtml",
               "RelativeToolTip": "Views\\Product\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -403,11 +452,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Order\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Order\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Order\\Create.cshtml",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Order\\Create.cshtml",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Order\\Create.cshtml",
               "RelativeToolTip": "Views\\Order\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -415,11 +464,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Order\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Order\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Order\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Order\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Order\\Edit.cshtml",
               "RelativeToolTip": "Views\\Order\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -427,11 +476,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Order\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Order\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Order\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Order\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Order\\Delete.cshtml",
               "RelativeToolTip": "Views\\Order\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -439,11 +488,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Product\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Product\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Create.cshtml",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Product\\Create.cshtml",
               "RelativeToolTip": "Views\\Product\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -451,11 +500,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Customer\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Customer\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Customer\\Create.cshtml",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Customer\\Create.cshtml",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Customer\\Create.cshtml",
               "RelativeToolTip": "Views\\Customer\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -463,11 +512,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Product\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Product\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Product\\Edit.cshtml",
               "RelativeToolTip": "Views\\Product\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -475,11 +524,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Product\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Product\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Product\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Product\\Delete.cshtml",
               "RelativeToolTip": "Views\\Product\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -487,11 +536,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Customer\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Customer\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Customer\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Customer\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Customer\\Delete.cshtml",
               "RelativeToolTip": "Views\\Customer\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -499,11 +548,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Customer\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Customer\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Customer\\Details.cshtml",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Customer\\Details.cshtml",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Customer\\Details.cshtml",
               "RelativeToolTip": "Views\\Customer\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -511,11 +560,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Customer\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Customer\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Customer\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Customer\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Views\\Customer\\Edit.cshtml",
               "RelativeToolTip": "Views\\Customer\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -523,23 +572,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "Controllers\\CustomerController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T20:59:32.975Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Controllers\\ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Controllers\\ProductController.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAAAAAGoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -547,11 +584,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Models\\Product.cs",
+              "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-1-ST10259834-Aaryan-Makan\\ABC Retail\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\RajeshM\\Documents\\cldv6212-part-2-ST10259834-Aaryan-Makan\\ABC Retail\\Models\\Product.cs",
               "RelativeToolTip": "Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAowBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -14,7 +14,7 @@ public class ProcessOrderCommand
         _logger = logger;
     }
 
-    // Queue name must match Program.cs / your storage: "order-commands"
+    
     [Function("ProcessOrderCommand")]
     public async Task Run([QueueTrigger("order-commands", Connection = "storageConnectionString")] string message)
     {

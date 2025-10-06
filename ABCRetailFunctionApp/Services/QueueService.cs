@@ -14,11 +14,11 @@ public class QueueService
         _queue.CreateIfNotExists();
     }
 
-    // 1) Raw JSON overload (no extra serialization)
+    
     public Task SendAsync(string json) =>
         _queue.SendMessageAsync(json);
 
-    // 2) Object overload (serialize to JSON once)
+    
     public Task SendAsync(object messageJsonObject) =>
         _queue.SendMessageAsync(JsonSerializer.Serialize(messageJsonObject));
 

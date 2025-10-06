@@ -1,26 +1,34 @@
-﻿using ABC_Retail.Models;
+﻿using System;
+using System.Linq;
+using System.Threading.Tasks;
+using ABC_Retail.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+
+
 
 namespace ABC_Retail.Controllers
 {
     public class OrderController : Controller
     {
-        private readonly TableStorageService<Order> _orders;
-        private readonly TableStorageService<Customer> _customers;
-        private readonly TableStorageService<Product> _products;
-        private readonly QueueStorageService _queue;
+        private readonly TableStorageService<Order> _orders;      // READ-ONLY
+        private readonly TableStorageService<Customer> _customers; // READ-ONLY
+        private readonly TableStorageService<Product> _products;   // READ-ONLY
+        private readonly QueueStorageService _queue;               // kept to avoid DI issues (no longer used)
+        private readonly FunctionClient _func;                     // writes go via Function App
 
         public OrderController(
             TableStorageService<Order> orders,
             TableStorageService<Customer> customers,
             TableStorageService<Product> products,
-            QueueStorageService queue)
+            QueueStorageService queue,
+            FunctionClient func)
         {
             _orders = orders;
             _customers = customers;
             _products = products;
-            _queue = queue;
+            _queue = queue; // not used now; retained for DI stability
+            _func = func;
         }
 
         // Helper for dropdowns
@@ -40,9 +48,21 @@ namespace ABC_Retail.Controllers
             ViewBag.ProductOptions = new SelectList(products, "Id", "Name", selectedProduct);
         }
 
-        public async Task<IActionResult> Index()
+        // INDEX with simple search (by RowKey, CustomerRowKey, or Status)
+        public async Task<IActionResult> Index(string? q)
         {
             var orders = await _orders.GetAllAsync();
+
+            if (!string.IsNullOrWhiteSpace(q))
+            {
+                var search = q.Trim().ToLowerInvariant();
+                orders = orders.Where(o =>
+                    (o.RowKey ?? "").ToLowerInvariant().Contains(search) ||
+                    (o.CustomerRowKey ?? "").ToLowerInvariant().Contains(search) ||
+                    (o.Status ?? "").ToLowerInvariant().Contains(search)
+                ).ToList();
+            }
+
             var customers = (await _customers.GetAllAsync()).ToDictionary(c => c.RowKey, c => $"{c.FirstName} {c.LastName}");
             var products = (await _products.GetAllAsync()).ToDictionary(p => p.RowKey, p => p.ProductName);
 
@@ -56,6 +76,7 @@ namespace ABC_Retail.Controllers
                 })
                 .ToList();
 
+            ViewBag.Query = q;
             return View(vm);
         }
 
@@ -75,19 +96,28 @@ namespace ABC_Retail.Controllers
                 return View(o);
             }
 
-            await _orders.AddAsync(o);
-            await _queue.SendMessagesAsync(new
-            {
-                action = "PROCESS_ORDER",
-                orderId = o.RowKey,
-                customerId = o.CustomerRowKey,
-                productId = o.ProductRowKey,
-                quantity = o.Quantity,
-                status = o.Status,
-                when = DateTime.UtcNow
-            });
+            // Queue CREATE (do NOT write tables directly)
+            if (string.IsNullOrWhiteSpace(o.RowKey))
+                o.RowKey = "ORD-" + Guid.NewGuid().ToString("N")[..6];
 
-            return RedirectToAction(nameof(Index));
+            var cmd = new
+            {
+                action = "CREATE_ORDER",
+                payload = new
+                {
+                    partitionKey = "ORDER",
+                    rowKey = o.RowKey,
+                    customerRowKey = o.CustomerRowKey,
+                    productRowKey = o.ProductRowKey,
+                    quantity = o.Quantity,
+                    status = string.IsNullOrWhiteSpace(o.Status) ? "Pending" : o.Status,
+                    createdUtc = DateTime.UtcNow
+                }
+            };
+
+            var ok = await _func.SendOrderCommandAsync(cmd);
+            TempData["msg"] = ok ? $"Order {o.RowKey} queued for creation." : "Failed to queue order.";
+            return RedirectToAction(nameof(Index), new { q = o.RowKey });
         }
 
         public async Task<IActionResult> Details(string partitionKey, string rowKey)
@@ -121,19 +151,21 @@ namespace ABC_Retail.Controllers
                 return View(o);
             }
 
-            await _orders.UpdateAsync(o);
-            await _queue.SendMessagesAsync(new
+            // Queue UPDATE (status)
+            var cmd = new
             {
                 action = "UPDATE_ORDER",
-                orderId = o.RowKey,
-                customerId = o.CustomerRowKey,
-                productId = o.ProductRowKey,
-                quantity = o.Quantity,
-                status = o.Status,
-                when = DateTime.UtcNow
-            });
+                payload = new
+                {
+                    partitionKey = "ORDER",
+                    rowKey = o.RowKey,
+                    status = string.IsNullOrWhiteSpace(o.Status) ? "Pending" : o.Status
+                }
+            };
 
-            return RedirectToAction(nameof(Index));
+            var ok = await _func.SendOrderCommandAsync(cmd);
+            TempData["msg"] = ok ? $"Order {o.RowKey} status queued for update." : "Failed to queue status update.";
+            return RedirectToAction(nameof(Index), new { q = o.RowKey });
         }
 
         public async Task<IActionResult> Delete(string partitionKey, string rowKey)
@@ -147,18 +179,36 @@ namespace ABC_Retail.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(string partitionKey, string rowKey)
         {
-            await _orders.DeleteAsync(partitionKey, rowKey);
-            await _queue.SendMessagesAsync(new
+            // Queue UPDATE to mark as Cancelled (no direct delete)
+            var cmd = new
             {
-                action = "CANCEL_ORDER",
-                orderId = rowKey,
-                when = DateTime.UtcNow
-            });
-            return RedirectToAction(nameof(Index));
+                action = "UPDATE_ORDER",
+                payload = new { partitionKey = "ORDER", rowKey, status = "Cancelled" }
+            };
+
+            var ok = await _func.SendOrderCommandAsync(cmd);
+            TempData["msg"] = ok ? $"Order {rowKey} queued to be cancelled." : "Failed to queue cancel request.";
+            return RedirectToAction(nameof(Index), new { q = rowKey });
+        }
+
+        // NEW: inline Status update endpoint for the grid dropdown
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> UpdateStatus(string rowKey, string status)
+        {
+            var cmd = new
+            {
+                action = "UPDATE_ORDER",
+                payload = new { partitionKey = "ORDER", rowKey, status }
+            };
+
+            var ok = await _func.SendOrderCommandAsync(cmd);
+            TempData["msg"] = ok ? $"Order {rowKey} queued to {status}." : "Failed to queue status change.";
+            return RedirectToAction(nameof(Index), new { q = rowKey });
         }
     }
 
-    // Simple view model for the Index list
+    // View model for the Index list
     public class OrderListItem
     {
         public Order Order { get; set; } = default!;

@@ -1,8 +1,8 @@
 ﻿#nullable enable
 public class OrderDto
 {
-    public string? PartitionKey { get; set; }   // optional; default is "ORDER"
-    public string? RowKey { get; set; }   // optional; if blank we generate
+    public string? PartitionKey { get; set; }   
+    public string? RowKey { get; set; }  
 
     public string? CustomerRowKey { get; set; }
     public string? ProductRowKey { get; set; }

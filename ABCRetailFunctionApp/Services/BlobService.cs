@@ -19,10 +19,10 @@ public class BlobService
         if (string.IsNullOrWhiteSpace(blobName))
             throw new ArgumentException("blobName is empty.");
 
-        blobName = blobName.Trim();               // remove stray spaces/newlines
+        blobName = blobName.Trim();               
         var blob = _container.GetBlobClient(blobName);
 
-        // Helpful debug: prints the exact URI being used.
+        
         Console.WriteLine($"[BlobService] Uploading to: {blob.Uri}");
 
         using var ms = new MemoryStream(Encoding.UTF8.GetBytes(content ?? string.Empty));

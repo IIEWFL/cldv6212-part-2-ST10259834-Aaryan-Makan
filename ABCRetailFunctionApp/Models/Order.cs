@@ -10,11 +10,10 @@ namespace ABC_Retail.Models
         public DateTimeOffset? Timestamp { get; set; }
         public ETag ETag { get; set; }
 
-        // Associations (links to your Part 1 tables)
         public string CustomerRowKey { get; set; } = "";
         public string ProductRowKey { get; set; } = "";
 
-        // Business fields
+      
         public int Quantity { get; set; } = 1;
         public string Status { get; set; } = "Pending"; // Pending | Processed | Cancelled
         public DateTime CreatedUtc { get; set; } = DateTime.UtcNow;
